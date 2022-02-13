@@ -29,8 +29,7 @@ const recSearch = async (dir, filelist = []) => {
 	return filelist;
 };
 
-// Set your path here
-recSearch("/Users/restedarm/Desktop/Music/").then((res) => {
+recSearch(process.argv[2]).then((res) => {
 	res.sort((a, b) => b[0] - a[0]);
 
 	for (var x in res) {
