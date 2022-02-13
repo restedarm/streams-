@@ -1,0 +1,16 @@
+{
+  "name": "streams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stream.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arman Abrahamyan",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "moment": "^2.29.1",
+    "prettier": "^2.5.1"
+  }
+}
