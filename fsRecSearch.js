@@ -38,4 +38,7 @@ recSearch(process.argv[2]).then((res) => {
 			`${res[x][1]} _____________ ${formatBytes(res[x][0])}` + "\n"
 		);
 	}
+}).catch((err) => {
+	console.log(err);
+	process.exit(1);
 });
